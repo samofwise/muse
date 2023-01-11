@@ -1,0 +1,49 @@
+Right Now:
+✔ Update All Packages @done(21-02-24 01:33)
+✔ Fix chord with no words dropping down @done(21-02-24 01:33)
+✔ Fix chords in middle of words dropping to new line @done(21-02-24 01:33)
+☐ Fix the not displaying half the song
+☐ Fix swiping of side bars
+☐ Change from react-beautiful-dnd to something else
+☐ Change name Lyre/Pardalote/songbird
+☐ Fix the swiping
+
+☐ Make mobile responsive 
+    ☐ main page
+    ☐ New Song 
+☐ Remove old state and such
+
+
+
+Future:
+Create users https://aws.amazon.com/blogs/mobile/building-fine-grained-authorization-using-amazon-cognito-user-pools-groups/
+sign in
+My list
+
+
+
+
+Big Ideas:
+- Set Sharing, email
+
+//  Range inclusion
+//  store last key/capo of song
+
+// Basic song editor
+
+// Future
+// Sharing sets to recents
+// Sharing to people close to your location
+// Share by link
+
+// lock chord shapes? change keys but keep the same chord shapes
+// Font size, font type changes
+
+// on upload lookup and check duplicates
+
+
+// different teirs of account
+
+// awesome song editor
+
+// projecting solution

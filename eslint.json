@@ -1,0 +1,39 @@
+{
+	"defaultSeverity": "warning",
+	"extends": ["tslint-eslint-rules", "tslint-config-airbnb", "tslint-react"],
+	"jsRules": {},
+	"rules": {
+		"align": [true, "parameters", "statements", "members", "elements"],
+		"curly": [false],
+		"indent": false, // use ter-indent instead
+		"jsx-boolean-value": false,
+		"jsx-no-multiline-js": false,
+		"max-line-length": false, // use ter-max-len instead
+		"no-boolean-literal-compare": false,
+		"no-duplicate-imports": [true, { "allow-namespace-imports": true }],
+		"no-increment-decrement": false,
+		"semicolon": [true, "always", "ignore-bound-class-methods"],
+		"space-before-function-paren": false,
+		"ter-arrow-parens": false,
+		"ter-indent": [
+			true,
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"ter-max-len": [
+			true,
+			{
+				"code": 120,
+				"tabWidth": 2,
+				"ignoreImports": true,
+				"ignoreStrings": true,
+				"ignoreTemplateLiterals": true,
+				"ignoreUrls": true
+			}
+		],
+		"trailing-comma": false
+	},
+	"rulesDirectory": []
+}

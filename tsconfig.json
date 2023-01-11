@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"lib": ["es2015", "es2017", "dom"],
+		"module": "esNext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"noImplicitAny": true,
+		"outDir": "./bin/dist/",
+		"sourceMap": true,
+		"target": "es5",
+		"skipLibCheck": true
+	},
+	"exclude": ["node_modules", "typings", "wwwroot"]
+}
